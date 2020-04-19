@@ -1,0 +1,368 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*----navigationBar-------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 60px;
+
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+	
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.navbar {
+	background: #fff;
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*---------------Slider---------------------*/
+#Slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption H4
+{
+	color: rgb(248, 251, 251); 
+	font-size: 42px;
+	padding-top: 50%;
+	
+}
+/*--------------ABOUT----------*/
+#about
+{
+	 padding-top: 50px;
+	 padding-bottom: 55px;
+	 color: #555;
+}
+.about-content{
+	padding-top: 20px;
+}
+.fa-html5
+{
+	color: green;
+	margin-left: 15px;
+} 
+.skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+/*------------------SEVICES--------------------*/
+#service{
+
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	background-size: cover;
+    background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#service h1
+{
+text-align: center;
+color:#efefef;
+padding-bottom: 10px;
+}
+#service h1::after
+{
+content:'';
+background-color: #efefef;
+display: block;
+height: 3px;
+width: 170px;
+margin: 20px auto 5px ;
+}
+.service{
+
+	margin-top: 40px;
+}
+.icon{
+	font-size: 15px;
+	margin: 20px auto;
+	padding: 5px;
+	height: 80px;
+	width: 80px;	
+}
+#service{
+ font-size: 14px;
+ margin-top: 20px;
+ color: #cccccc;
+ 
+}
+.service .col-md-3:hover{
+background-color: #007bff;
+cursor: pointer;
+transition: 0.5s;
+}
+
+/*--------------Team Members---------*/
+#Team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+h1{
+	text-align: center;
+	color: #555;
+	padding-bottom: 10px;
+
+}
+#Members::after{
+	content:'';
+	background-color: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.profile-pic{
+	margin-top: 25px;
+}
+.profile-pic .img-box {
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img {
+	filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+.profile-pic h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#Team .fa{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background-color: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+.img-box ul{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.img-box ul li{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul,.img-box ul li
+{
+	transition: 0.5s;
+
+}
+/*--------------------PROMO-----------------------*/
+#promo{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/contactus.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+/*--------------------------------PRICE PLANS-----------------*/
+#price
+{
+	padding: 40px 0;
+	background-color:#fff;
+}
+.singel-price
+{
+	margin: 10px auto;
+	display: inline;
+	float:left;
+	width:100%;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.singel-price:hover{
+	box-shadow: 0 2px 20px;
+}
+.price-head{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.price-head p{
+	font-size: 25px;
+	color: #ccc;
+	font-weight: bold;
+	line-height: 30px;
+}	
+#price span{
+	font-size: 15px;
+}
+.price-content
+{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+}
+.price-content ul,li
+{
+	border-bottom: 1px solid #efefef;
+	padding: 15px 10px;
+	list-style: none;
+}
+ul,li :last-child{
+	border: none;
+}
+.fa-check-circle{
+	color: green;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.fa-times-circle-o{
+	color: red;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.price-button{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+}
+.buy-btn{
+	background-color: #2196f3;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+}
+.buy-btn:hover{
+	border-color: 1px solid #fff;
+	background-color: #00ad26;
+}
+a{
+	text-decoration: none !important;
+	color: #fff !important;
+}
+/*---------------------------------Get in Toch------------------------------*/
+#contact
+{
+	 background-color:#d1d1d1;
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+	 color:white;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+#text{
+	color: black;
+      text-decoration-color: #007bff;
+}
+.follow
+{
+	background: #d1d1d1;
+	padding: 10px;
+	margin: 15px;
+
+}
+.contact-info .fa{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+/*------------------------------------------Footer----*/
+#footer{
+	background-color: #007bff;
+	color: white;
+	padding: 12px;
+}
+p
+{
+	padding-top: 20px;
+	text-align: center;
+}
+
