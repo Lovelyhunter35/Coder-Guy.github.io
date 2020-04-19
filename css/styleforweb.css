@@ -149,7 +149,8 @@ h1{
 	padding-bottom: 10px;
 
 }
-#Members::after{
+h1::after
+{
 	content:'';
 	background-color: #007bff;
 	display: block;
